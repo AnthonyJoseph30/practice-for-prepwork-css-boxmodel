@@ -1,20 +1,48 @@
 * {
     box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+
     
 }
 
-.box {
-    border:  10px solid black; /* Applies to all four sides. */
-    box-sizing: border-box;
-    height:  100px; /* Sum of content + top/bottom padding + top/bottom border */
-    margin:  50px;  /* Applies to all four sides. */
-    padding: 25px;  /* Applies to all four sides. */
-    width:   250px; /* Sum of content + left/right padding + left/right border */
-    background-color: blue;
+.box-1 {
+    display: inline-block;
+    background-color: black;
+    height: 900px;
+    width: 300px;
+}
+
+.side-border {
+    background-color: yellow;
+    height: 900px;
+    width: 280px;
+}
+
+.box-2 {
+    display: inline-block;
+    background-color: pink;
+    padding: 20% 5%;
+
+}
+.box-3 {
+    display: inline-block;
+    background-color: aqua;
+    padding: 15px 10px 20px;
+
+}
+.box-4 {
+    display: inline-block;
+    background-color: gray;
+    padding: inherit;
 }
 
 h1 {    
     color: black;
+
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 200px;
+    height: 900px;
+    width: 280px;
+    margin-top: 0;
 }

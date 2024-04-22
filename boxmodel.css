@@ -1,0 +1,20 @@
+* {
+    box-sizing: content-box;
+    
+}
+
+.box {
+    border:  10px solid black; /* Applies to all four sides. */
+    box-sizing: border-box;
+    height:  100px; /* Sum of content + top/bottom padding + top/bottom border */
+    margin:  50px;  /* Applies to all four sides. */
+    padding: 25px;  /* Applies to all four sides. */
+    width:   250px; /* Sum of content + left/right padding + left/right border */
+    background-color: blue;
+}
+
+h1 {    
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}

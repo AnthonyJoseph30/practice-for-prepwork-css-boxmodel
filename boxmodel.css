@@ -1,9 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-
-    
+    padding: 0; 
 }
 
 body {
@@ -13,14 +11,14 @@ body {
 }
 
 .box-1 {
-    display: inline-block;
-    background-color: black;
-    height: 90px;
-    width: 30px;
+    background-color: yellow;
+    height: 450px;
+    width: 140px;
 }
 
 .side-border {
-    background-color: yellow;
+    display: inline-block;
+    background-color: black;
     height: 90px;
     width: 28px;
 }
@@ -28,19 +26,20 @@ body {
 .box-2 {
     display: inline-block;
     background-color: pink;
-    padding: 20% 5%;
-
+    height: 450px;
+    width: 140px;
 }
 .box-3 {
     display: inline-block;
     background-color: aqua;
-    padding: 15px 10px 20px;
-
+    height: 450px;
+    width: 140px;
 }
 .box-4 {
     display: inline-block;
     background-color: gray;
-    padding: inherit;
+    height: 450px;
+    width: 140px;
 }
 
 h1 {    

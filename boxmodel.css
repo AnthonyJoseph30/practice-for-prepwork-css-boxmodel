@@ -12,15 +12,17 @@ body {
 
 .box-1 {
     background-color: yellow;
-    height: 450px;
-    width: 140px;
+    height: 430px;
+    width: 130px;
+    padding: 10px;
 }
 
 .side-border {
     display: inline-block;
     background-color: black;
-    height: 90px;
-    width: 28px;
+    height: 450px;
+    width: 150px;
+    
 }
 
 .box-2 {

@@ -25,9 +25,8 @@
   
   #pink-box {
     background-color: #ff69b4;
-    left: 300px;
-    position: fixed;
-    top: 10%;
+    position:absolute;
+    bottom: 30px;
   }
   
   #blue-box {

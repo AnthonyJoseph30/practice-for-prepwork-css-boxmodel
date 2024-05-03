@@ -6,9 +6,8 @@
 
 .container {
     background-color: #2b2d2f;
-    position: relative;
-    height:977px;
-    
+    height: 9000px;
+    width: 2000px;
   }
   
   .element {
@@ -21,14 +20,19 @@
   
   #yellow-box {
     background-color: #ffff00;
+
   }
   
   #pink-box {
     background-color: #ff69b4;
-    position:absolute;
-    bottom: 30px;
+    position: fixed;
+    left: 50px;
+    top: 100px;
+
   }
   
   #blue-box {
     background-color: #00eeee;
+
+
   }

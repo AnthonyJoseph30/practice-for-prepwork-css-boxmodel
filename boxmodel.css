@@ -26,18 +26,20 @@
   
   #yellow-box {
     background-color: #ffff00;
-    position: absolute;
 
   }
   
   #pink-box {
     background-color: #ff69b4;
+    position: absolute;
+    top: 20px;
    
   }
   
   #blue-box {
     background-color: #00eeee;
     position: absolute;
+
 
   }
 
